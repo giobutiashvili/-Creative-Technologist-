@@ -1,0 +1,77 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    margin-bottom: 40px;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+button{
+    width: 208px;
+    height: 47px;
+    margin-top: 27px;
+    background: #FF6464;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    line-height: 29px;
+}
+.mainc-section{
+    padding:0 148px 0 148px;
+    margin-top: 27px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: end; 
+
+}
+li{
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    cursor:pointer;
+    margin-right: 33px;
+}
+.s-1{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 148px;
+}
+.s1-div{
+    width: 506px;
+}
+.back-img{
+    background-image: url(/imige/Ellipse\ 1.png);
+    width: 243px;
+    height: 243px;
+    margin: 0 auto;
+}
+/* section 2 */
+.div-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 95px 0 26px 0;
+}
+.div-p-1{
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.div-p-2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+.s-2-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
