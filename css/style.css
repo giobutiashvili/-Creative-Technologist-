@@ -8,6 +8,21 @@ h1{
     line-height: 60px;
     color: #21243D;
 }
+h2{
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+h4{
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
 p{
     font-size: 16px;
     line-height: 24px;
@@ -48,7 +63,7 @@ li{
     width: 506px;
 }
 .back-img{
-    background-image: url(/imige/Ellipse\ 1.png);
+    background-image: url(../imige/Ellipse\ 1.png);
     width: 243px;
     height: 243px;
     margin: 0 auto;
@@ -75,3 +90,65 @@ li{
     justify-content: space-between;
     align-items: center;
 }
+.s-2-div1{
+    width: 418px;
+    height: 295px;
+    padding: 24px;
+}
+.div-stick{
+    width: 0px;
+    height: 21px;
+    border: 1px solid #000000;
+}
+.s-2-div2{
+    display: flex;
+    align-items: center;  
+}
+.s-2-div2 > .div-stick{
+    margin: 11px 20px ;
+}
+.s-3-div1{
+    display: flex;
+    margin-bottom: 46px;
+}
+.img-div{
+    margin-right: 18px;
+}
+.s-3-div1-middle{
+    display: flex;
+    margin: 16px 0 17px 0;
+}
+.div-2020{
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-right: 26px;
+    padding: 0 15px;
+}
+.Dashboard{
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px 0 26px 0;
+}
+.footer-p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    margin-bottom: 30px;
+}
+.div-footer img:not(:last-child){
+    margin-right: 35px;
+}
+
+
+
