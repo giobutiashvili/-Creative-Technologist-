@@ -154,10 +154,7 @@ li{
 .div-footer img:not(:last-child){
     margin-right:  35px;
 }
-.s-blog{
-    margin: 106px 0 106px 0;
-    padding: 0 205px;
-}
+
 .s-blog > div{
     margin-bottom: 61px;
 }
@@ -187,8 +184,7 @@ li{
     margin-right: 20px;
 }
 
-
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 360px) {
     .mainc-section {
         padding: 0;
         align-items: center;
@@ -203,6 +199,9 @@ li{
         padding: 0
         ;
     }
+    .imigtag{
+        display: block;
+    }
     .s-blog{
         margin: auto;
         padding: 0;
@@ -210,6 +209,17 @@ li{
     .s1-div .imigtag{
         width: 100%;
     }
-  }
-  
+ }
+ @media screen and(max-width:768px) {
+    .s-1{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+ }
+
+ @media screen and (max-width: 1024px){
+    .mainc-section{
+        padding: 0;
+    }
+}
     
