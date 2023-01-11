@@ -210,13 +210,12 @@ li{
         width: 100%;
     }
  }
- @media screen and(max-width:768px) {
+ @media  screen and (min-width:768px) {
     .s-1{
         display: flex;
         flex-wrap: nowrap;
     }
  }
-
  @media screen and (max-width: 1024px){
     .mainc-section{
         padding: 0;
